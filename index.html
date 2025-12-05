@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ghoste.AI</title>
+    <style>
+        body {
+            background: #0a0a0a;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+        #chat {
+            width: 80%;
+            max-width: 700px;
+            margin: auto;
+            text-align: left;
+            background: #121212;
+            padding: 20px;
+            border-radius: 10px;
+            min-height: 300px;
+            overflow-y: auto;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            border-radius: 5px;
+            background: #222;
+            color: white;
+            border: none;
+        }
+        button {
+            padding: 10px 20px;
+            background: #4caf50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ghoste.AI</h1>
+    <p>L’IA gratuite hébergée sur GitHub Pages</p>
+
+    <div id="chat"></div>
+
+    <br /><br />
+
+    <input id="input" placeholder="Pose ta question à Ghoste..." />
+    <button onclick="send()">Envoyer</button>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
